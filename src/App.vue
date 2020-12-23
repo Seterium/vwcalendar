@@ -2,6 +2,7 @@
 import dayjs from 'dayjs'
 import relativeTime from 'dayjs/plugin/relativeTime'
 import customParseFormat from 'dayjs/plugin/customParseFormat'
+
 import Calendar from 'v-calendar/lib/components/calendar.umd'
 
 dayjs.extend(relativeTime)
@@ -48,4 +49,3 @@ export default {
     </div>
   </div>
 </template>
-<style src="@/assets/styles/app.scss" lang="scss"></style>

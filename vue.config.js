@@ -6,17 +6,6 @@ module.exports = {
   publicPath: '/vwcalendar/',
 
   configureWebpack: {
-    optimization: {
-      // minimizer: [
-      //   new UglifyJsPlugin({
-      //     uglifyOptions: {
-      //       output: {
-      //         comments: false,
-      //       },
-      //     },
-      //   })
-      // ],
-    },
     plugins: [
       new webpack.optimize.LimitChunkCountPlugin({
         maxChunks: 1
