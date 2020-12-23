@@ -2,7 +2,7 @@
   "name": "Work calendar",
   "short_name": "Calendar",
   "lang": "ru",
-  "start_url": "/",
+  "start_url": "/vwcalendar/index.html",
   "display": "standalone",
   "theme_color": "#fff",
   "icons": [
