@@ -1,10 +1,10 @@
 const staticCacheName = 'cacheV1';
 
 const assets = [
-  '/',
-  '/index.html',
-  '/assets/js/ui.js',
-  '/assets/css/main.css',
+  '/vwcalendar/',
+  '/vwcalendar/index.html',
+  '/vwcalendar/app.js',
+  '/vwcalendar/app.css',
 ];
 
 // событие install
