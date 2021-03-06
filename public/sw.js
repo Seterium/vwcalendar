@@ -1,4 +1,4 @@
-const staticCacheName = 'cacheV1';
+const staticCacheName = 'cacheV2';
 
 const assets = [
   '/vwcalendar/',

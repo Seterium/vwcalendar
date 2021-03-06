@@ -21,7 +21,7 @@ export default {
   }),
   methods: {
     isWorkingDay(date) {
-      const x = dayjs(date, 'YYYY-MM-DD').diff('1970-01-01', 'days') % 4
+      const x = dayjs(date, 'YYYY-MM-DD').diff('1970-01-04', 'days') % 4
 
       return x === 1 || x === 2
     }

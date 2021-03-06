@@ -6,6 +6,9 @@ module.exports = {
   publicPath: '/vwcalendar/',
 
   configureWebpack: {
+    devServer: {
+      port: 3000
+    },
     plugins: [
       new webpack.optimize.LimitChunkCountPlugin({
         maxChunks: 1
